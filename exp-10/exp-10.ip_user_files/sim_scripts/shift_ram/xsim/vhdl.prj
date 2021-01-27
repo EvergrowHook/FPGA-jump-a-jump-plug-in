@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../exp-10.srcs/sources_1/ip/shift_ram/sim/shift_ram.vhd" \
+
+nosort
