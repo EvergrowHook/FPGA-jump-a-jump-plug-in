@@ -133,7 +133,7 @@
       用Sobel算子判断图像中的边缘，并将灰度图像转为只有边缘的二值化图像  
       Sobel算子：分为3步计算  
       第一步，计算一个3x3算子的Gx和Gy  
-      ![](http://latex.codecogs.com/svg.latex?Gx\text{ or }Gy = \begin{vmatrix}-1&0&+1\\\\-2&0&+2\\\\-1&0&+1\end{vmatrix}）  
+      ![](http://latex.codecogs.com/svg.latex?Gx\text{or}Gy=\begin{vmatrix}-1&0&+1\\\\-2&0&+2\\\\-1&0&+1\end{vmatrix}）  
       （行列式内部的数指3x3算子各元素的权重）  
       第二步，计算G=Gx+Gy  
       第三步，二值化，若G>THRESHOLD，则认为是边沿，Sobel值设为1，否则设为0  
